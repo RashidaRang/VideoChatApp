@@ -112,6 +112,7 @@ $(function () {
             url: window.location.href,
             to: to
         }
+        console.log(data)
         $.ajax({
             url: "/send-mail",
             type: "post",
